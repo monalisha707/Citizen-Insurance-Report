@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.ait.Entity.Citizen;
 
-@Repository
+
 public interface CitizenPlanRepository  extends JpaRepository<Citizen, Integer> {
 
 }
